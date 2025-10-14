@@ -21,7 +21,7 @@ const config = {
   url: 'https://camperez.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/documentation/',
+  baseUrl: 'https://camperez.github.io/documentation/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -89,7 +89,7 @@ const config = {
       {
         schema: "./schemas/filtered-schema.graphql",
         rootPath: "./api",
-        baseURL: "/documentation/",
+        baseURL: "https://camperez.github.io/documentation/",
         linkRoot: "/api",
         loaders: {
           GraphQLFileLoader: "@graphql-tools/graphql-file-loader", // local file schema
